@@ -127,6 +127,12 @@
     <Compile Include="FM_Listados.Designer.cs">
       <DependentUpon>FM_Listados.cs</DependentUpon>
     </Compile>
+    <Compile Include="FM_LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FM_LogIn.Designer.cs">
+      <DependentUpon>FM_LogIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="FM_Modelo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     <Compile Include="UsuarioActual.cs" />
     <EmbeddedResource Include="FM_Lectores.resx">
       <DependentUpon>FM_Lectores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FM_LogIn.resx">
+      <DependentUpon>FM_LogIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FM_Modelo.resx">
       <DependentUpon>FM_Modelo.cs</DependentUpon>

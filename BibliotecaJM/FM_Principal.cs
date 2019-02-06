@@ -20,8 +20,8 @@ namespace BibliotecaJM
 
         private void FM_Principal_Load(object sender, EventArgs e)
         {
-            usuarioActual.Nombre = "admin";
-            usuarioActual.TipoUsuario = "A";
+            FM_LogIn log = new FM_LogIn();
+            log.ShowDialog();
         }
         private void tsbLectores_Click(object sender, EventArgs e)
         {
